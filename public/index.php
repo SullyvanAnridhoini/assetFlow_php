@@ -50,6 +50,12 @@ try {
             $controller->assets();
             break;
 
+        case 'form':
+        case 'questions':
+            $controller = new \App\Controllers\HomeController();
+            $controller->form();
+            break;
+
         default:
             http_response_code(404);
             $pageTitle = 'Page non trouvée (404)';

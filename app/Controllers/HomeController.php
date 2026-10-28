@@ -89,4 +89,10 @@ class HomeController extends BaseController
             'assets' => $assets,
         ]);
     }
+    public function form(): void
+    {
+        $this->render('assets/index', [
+            'pageTitle' => 'Formulaire',
+        ]);
+    }
 }

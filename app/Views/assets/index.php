@@ -12,6 +12,11 @@
             </p>
         </div>
 
+        <a href="index.php?route=form"
+            class="inline-flex items-center px-4 py-2 border border-slate-300 rounded-lg text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 transition shadow-sm">
+            Rajouter un objet
+        </a>
+
         <a href="index.php?route=home"
             class="inline-flex items-center px-4 py-2 border border-slate-300 rounded-lg text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 transition shadow-sm">
             &larr; Retour au portail
